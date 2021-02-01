@@ -1,0 +1,101 @@
+* {
+    font-family: 'Caveat Brush', cursive;
+    /*font-family: 'Bebas Neue', cursive;*/
+}
+
+header div.hero {
+    background-image: url("../imgs/P4s.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    text-align:center;
+}
+
+  
+header div.hero div{
+    min-height: 50vh;
+}
+
+nav div a.navbar-brand{
+    font-size: 2rem;    
+}
+
+header div.hero div{
+    min-height: 50vh;
+}
+
+header div.yolo img{
+    width: 50%;
+}
+
+.title{
+   font-size:2rem;
+   text-shadow: 2px 2px black;
+}
+ 
+.card img{
+   width:100%;
+}
+ 
+form {
+   font-size:1rem !important;
+}
+
+header form p {
+    font-family: 'Bebas Neue', cursive;
+}
+
+header form button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div form {
+    font-family: 'Bebas Neue', cursive;
+}
+
+div form label{
+    font-family: 'Bebas Neue', cursive;
+}
+
+ @media (min-width: 768px) {
+         header div.hero {
+             background-image: url("../imgs/P3m.jpg");
+             min-height: 80vh;
+         } 
+         form{
+           font-size:2rem !important;
+         }
+         .title{
+           font-size:6rem;
+           text-shadow: 2px 2px black;
+           padding:0.7em;
+           width:100%; 
+         }
+
+         header div.yolo img{
+            width: 20%;            
+        }
+
+       }
+ 
+ @media (min-width: 980px) {
+         header div.hero {
+             background-image: url("../imgs/P2.jpg");
+             min-height: 50vh;
+         }
+          .title{
+           max-width:1024px;
+           margin:1em auto;
+           text-shadow: 2px 2px black;
+         }
+
+         header div.yolo img{
+            width: 30%;            
+        }
+
+       }
